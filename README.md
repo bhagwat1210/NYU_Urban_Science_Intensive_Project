@@ -17,7 +17,7 @@ In this project, various factors that are more likely to cause traffic injuries 
 __Approach:__
 To address the earlier mentioned questions and to identify the top 37 schools with high risk of traffic collisions across all boroughs, the adopted approach included the application of clustering, regression analysis and rank ordering of the schools on the gathered data around traffic collisions, 311 complaints on street quality, moving summons issues by NYPD and census demographics data. Using the regression analysis technique, a risk score is developed for each elementary and middle school in New York City and then schools are rank ordered in the decreasing order to identify schools with high risk. Further in order to ensure the equity aspect across all boroughs, another borough based ranking is implemented and final 37 schools will be selected with a distribution that is equal to that initial distribution of schools across the boroughs.
 
-__Add final Flow Chart__ 
+![Alt text](usi_project_workflow.jpg) 
 
 __Data Sources and Processing:__
 
