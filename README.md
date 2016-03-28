@@ -28,8 +28,13 @@ __3.__ _Street Quality:_ Quality of street roads can influence the occurence of 
 __4.__ _Vehicle Speeding:_ Similar to street quality approach as a proxy for vehicular level speeding attributes, NYPD summons data available at precinct level were used. Based on school's location, each of them is associated a respective precinct and correspoind summons data across different types were aggregated for each school.<br> 
 __5.__ _Census Characteristics:_ For capturing census characteristics, each school is first mapped to its census tract and then US census level data is aggragated for each school. Various factors across different characteristics like demographics, income and education are used for the final analysis.<br>
 
-More details like data extracted and relavant code used for each of these sources are shared in the Data Processing folder.
+More details like data extracted and relavant code used for each of these sources are shared in the Data_Processing folder.
 
 __Analysis and Results:__
+Final results and the code used to generate them are shared in the Analysis_Results folder. After the implementation of clustering, logistic regression and rank-ordering techniques, the following deliverables were achieved.
+
+__1.__ Clusters of NYC schools based on their socio-economic profiles<br>
+__2.__ Model outpus including performance and variable related metrics for logistic regression<br>
+__3.__ Rank-ordering of NYC schools at city and borough level, further fund allocation is performed on the list of top 37 schools based on borough rank using school enrollment variable<br>
 
 
