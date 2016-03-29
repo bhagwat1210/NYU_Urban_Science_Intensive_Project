@@ -30,7 +30,7 @@ summons data are linked up. In order to keep the years of data consistent, summo
 2014 and 2015 were extracted, aggregated and normalized at overall level for each school. Further, 
 only significant causes of summons like Cell Phone, Disobey Steady Red Signal, Disobey Traffic Control Device, 
 Improper Turn, Safety Belt and Tinted Windows which have highest distribution share amongst the total moving summons 
-issued in the aggeragated data. The final output from this exercise includes two files: 
+issued in the aggeragated data. The final output from this exercise includes two files: <br>
 1. a school level precinct mapping based on geo-spatial location analysis <br> 
 2. 2. a precinct level aggregated data for moving summons issued by NYPD. The python code used for the process involved in creation of 2nd file is __Precinct_Summons_Mapping.ipynb__.
 
@@ -46,7 +46,7 @@ _Sources:_ https://nycopendata.socrata.com/Social-Services/311-Service-Requests-
 __Census Data__<br>
 Additional features were extracted related to demographics, education and income from the census database across each school. 
 Similar to the methodology adopted in the precinct mapping, census tract is assigned for each school based on the geo-spatial location and proximity. Once schools are identified under each census tract, all the associated characteristics of census tract like 
-demographics, income and education are aggregated for each school. The final output from this exercise includes four files: 
+demographics, income and education are aggregated for each school. The final output from this exercise includes four files: <br>
 1. a school level census tract mapping based on geo-spatial location analysis <br>
 2. a census tract level aggregated data for demographics <br>
 3. a census tract level aggregated data for income <br>
